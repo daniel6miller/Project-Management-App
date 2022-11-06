@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<!-----------------Link JS and CSS files--------------->
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="startup.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
+</head>
+
+<title>Project Home</title>
+
+<!------------------Top Navigation Bar--------------->
+<div class='card projectnav notranslate' id='projectnav'>
+  <div style="overflow:auto;">
+    <div class="bar" style="height:50px">
+      <a href='javascript:void(0);' class='material-icons left bar-item-side button' onclick='open_menu()' title='Menu'>menu</a>
+      <a class="active material-icons center bar-item button" href="index.html" title='Home'>home</a>
+      <a class="material-icons center bar-item button" href='activities.html' title='Activities'>task_alt</a>        
+      <a class="material-icons center bar-item button" href='schedule.html' title='Schedule'>schedule</a>
+      <a class="material-icons center bar-item button" href='finances.html' title='Finances'>request_quote</a>
+      <a class="material-icons center bar-item button" href='documents.html' title='Documents'>folder</a>
+      <a href='javascript:void(0);' class='material-icons fa right bar-item-side button' onclick='gSearch(this)' title='Search'>search</a>
+      <a href='javascript:void(0);' class='material-icons fa right bar-item-side button' onclick='gTra(this)' title='Choose Language'>language</a>
+    </div>
+  </div>
+</div>
+<!--------------Side Navigation Bar-------------->
+<div class="sidebar collapse" id="sidenav">
+  <a class="sidenav-item" href="index.html">   
+    <img class="profile-img" style="vertical-align: center;" src="project.jpg" alt="Project Image">  Project</a>
+  <a class="sidenav-item" href="activities.html">
+    <p class="material-icons">task_alt</p>   Activities</a>
+  <a class="sidenav-item" href="schedule.html">
+    <p class="material-icons">schedule</p>   Schedule</a>
+  <a class="sidenav-item" href="finances.html">
+    <p class="material-icons">request_quote</p>   Finances</a>
+  <a class="sidenav-item" href="documents.html">
+    <p class="material-icons">folder</p>    Files</a>
+</div>
+
+<!-------------Project Info------------->
+<div class="project-info">
+  <img class="project-img" src="project.jpg" alt="Project Image">
+</div>
+<div class="project-info">
+  <h1 id="date"></h1>
+</div>
+
+<!---------------Side Section------------------->
+<div class="sidesection">
+  <div class="body-weather weather-sidesection" id="weather">
+    <div class="location-date-time">
+      <span id="location"></span>
+      <span id="temp"></span>
+      <span id="description"></span>
+    </div>
+  </div>
+</div>
+<div class = "sidesection">
+  <div id="video_sidesection">
+    <p style="font-size: 14px;line-height: 1.5;font-family: Source Sans Pro;padding-left:4px;padding-right:4px;">We just launched<br>StartUp Threads</p>
+    <a onclick="ga('send', 'event', 'Videos' , 'fromSidebar');" href="https://www.w3schools.com/videos/index.php" class="hover-opacity"><img src="/images/htmlvideoad_footer.png" style="max-width:100%;padding:5px 10px 25px 10px" loading="lazy"></a>
+    <a class="ws-button" style="font-size:16px;text-decoration: none !important;display: block !important; color:#FFC0C7!important;  width: 100%; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; padding-top: 10px; padding-bottom: 20px; font-family: 'Source Sans Pro', sans-serif; text-align: center;"  onclick="ga('send', 'event', 'Videos' , 'fromSidebar');" href="https://www.w3schools.com/videos/index.php">Explore now</a>
+  </div>
+</div>
+
+
+<!-- <div class="sidesection">
+<h4><a href="/colors/colors_picker.asp">COLOR PICKER</a></h4>
+<a href="/colors/colors_picker.asp">
+<img src="/images/colorpicker2000.png" alt="colorpicker" loading="lazy"></a>
+</div>
+
+<div class="sidesection">
+  <div class="text-grey sharethis">
+    <a href="https://www.facebook.com/w3schoolscom/" target="_blank" title="Facebook"><span class="fa fa-facebook-square fa-2x"></span></a>
+    <a href="https://www.instagram.com/w3schools.com_official/" target="_blank" title="Instagram"><span class="fa fa-instagram fa-2x"></span></a>
+    <a href="https://www.linkedin.com/company/w3schools.com/" target="_blank" title="LinkedIn"><span class="fa fa-linkedin-square fa-2x"></span></a>
+    <a href="https://discord.gg/6Z7UaRbUQM" target="_blank" title='Join the W3schools communuity on Discord'><span class="fa fa-discord fa-2x"></span></a>    
+  </div>
+</div> -->
+
+

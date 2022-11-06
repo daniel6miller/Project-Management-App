@@ -1,0 +1,243 @@
+/*--------- Navigation Bar---------- */
+.projectnav {
+    position:relative;
+    z-index:2;
+    font-size:17px;
+    background-color: #464646;
+    color:#f1f1f1;
+    width:100%;
+    padding:0;
+    letter-spacing:1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.projectnav a{
+    padding:10px 15px 10px 15px !important;
+}
+.projectnav .bar a:hover,.projectnav .bar a:focus{
+    background-color:#000000 !important;
+    color:#ffffff !important;
+}
+.projectnav .bar a.active {
+    background-color: #1cb8d3!important;
+    color:#464646;
+}
+/*-----Material Icons from Google--------*/
+.material-icons{
+    font-size: 30px!important;
+    vertical-align: center;
+}
+
+.card{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+
+.bar{
+    width: 100%;
+    overflow: hidden;
+    text-align: center}
+
+.bar .bar-item{
+    text-align: center; 
+    position: relative;
+    display: inline-block;
+    padding:8px 16px;
+    width:80px;
+    border:none;
+    outline:0;
+}
+.bar .bar-item-side{
+    text-align: center; 
+    position: relative;
+    display: inline-block;
+    padding:8px 16px;
+    width:auto;
+    border:none;
+    outline:0;
+}
+
+.button{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle!important;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    }
+
+.left{float:left!important}
+.right{float:right!important}
+.center{float:center!important;}
+
+.fa {
+    display:inline-block;
+    font:normal normal normal 14px/1 fontawesome;
+    font-size:inherit;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    transform:translate(0, 0);
+}
+
+.button:hover{color:#000!important;background-color:#ccc!important}
+.button:disabled{cursor:not-allowed;opacity:0.3}
+.bar .button{white-space:normal}
+
+.sidebar{
+    position: relative;
+    float: left;
+    height:100%;
+    width:23%;
+    background-color:#fff;
+    position:fixed!important;
+    z-index:1;
+    overflow:auto
+}
+
+.sidenav-item {
+    display :none;
+    margin-left:10px;
+    background-color:#ddd;
+    color: black;
+    line-height: 1.8em!important;
+    font-size: 20px!important;
+    vertical-align: center;
+}
+
+#sidenav a {font-family:"Segoe UI",Arial,sans-serif;text-decoration:none;display:block;padding:2px 1px 1px 16px}
+#sidenav a:hover,#sidenav a:focus {color:#000000;background-color:#cccccc;}
+#sidenav a.active {background-color:#04AA6D;color:#ffffff;}
+#sidenav a.activesub:link,#sidenav a.activesub:visited {background-color:#ddd;color:#000;}
+#sidenav a.activesub:hover,#sidenav a.activesub:active {background-color:#ccc;color:#000;}
+
+@media (min-width:993px){.w3-modal-content{width:900px}.hide-large{display:none!important}.sidebar.collapse{display:block!important}}
+@media (max-width:992px){.sidebar.collapse{display:none}.w3-main{margin-left:0!important;margin-right:0!important}.w3-auto{max-width:100%}}
+
+.profile-img {
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 30px;
+    height: 30px;
+    vertical-align: center;
+}
+
+/* ------ Project Info ---------- */
+.project-info {
+    position: relative;
+    padding-left: 23%;
+    float: left;
+    overflow: auto;
+    width: 60%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+#project-info h1 {
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.project-img {
+    padding: 0;
+    width: 100%;
+    height: 100px;
+    text-align: right!important;
+}
+
+.sidesection {
+    overflow: auto;
+    margin-bottom: 32px;
+    padding-left: 84%;
+}
+#sidesection_exercise a{display:block;padding:4px 10px;}
+#sidesection_exercise a:hover,#sidesection_exercise a:active{background-color:#ccc;text-decoration:none;color:#000000;}
+.sidesection .w3-left-align {
+    text-align:center!important;
+}
+#video_sidesection {
+    width: 100%;
+    float:right;
+    font-family:'Source Sans Pro',sans-serif;
+    border-radius:5px;
+    color:white;
+    padding-top:25px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:230px;
+    background-color:#282A35
+}
+#weather-sidesection {
+    width: 100%;
+    float: right;
+    font-family:'Source Sans Pro',sans-serif;
+    border-radius:5px;
+    color:white;
+    padding-top:25px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:230px;
+    background-color:#282A35
+}
+
+.ws-btn {font-size: 17px;font-family: 'Source Sans Pro', sans-serif;border:none;border-radius:5px;display:inline-block;padding:6px 18px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;;text-align:center;cursor:pointer;white-space:nowrap;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:#04AA6D;color:#ffffff}
+
+.ws-btn:hover,.ws-btn:active {
+background-color: #059862!important;
+color: #ffffff;
+}
+
+.example .w3-btn, .example .ws-btn {
+    background-color:#04AA6D!important;
+    border-radius:5px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding:6px 18px;
+}
+
+
+.opacity,.hover-opacity:hover{opacity:0.60}
+.opacity-off,.hover-opacity-off:hover{opacity:1}
+.text-grey,.hover-text-grey:hover,.text-gray,.hover-text-gray:hover{color:#757575!important}
+.sharethis a:hover {color:inherit;}
+
+
+/* ------- Weather------- */
+.body-weather {
+    float:right;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #464646;
+    text-shadow: .1em .1em 0 rgba(0,0,0,0.3);
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right top, #99bbcb, #a5c7d7, #b1d4e2, #bde0ee, #c9edfa);
+}
+
+.location-date-time {
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+    display: inline-block;
+    font-weight:bold;
+}
+#body-weather .sunny {
+    background-image: linear-gradient(to right top, #ff4e50, #ff713e, #ff932b, #ffb41d, #f9d423);
+}
+#body-weather .cloudy {
+    background-image: linear-gradient(to right top, #63747c, #71858e, #7f96a0, #8da8b2, #9bbac5);
+}
+#body-weather .rainy {
+    background-image: linear-gradient(to right top, #637c7b, #718e8c, #7ea09e, #8db2b0, #9bc5c3);
+}
+
+

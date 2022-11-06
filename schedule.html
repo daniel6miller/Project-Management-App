@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script> src="startup.js" </script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+
+<div class='card projectnav notranslate' id='projectnav'>
+  <div style="overflow:auto;">
+    <div class="bar" style="height:50px">
+      <a href='javascript:void(0);' class='material-icons left bar-item-side button' onclick='open_menu()' title='Menu'>menu</a>
+      <a class='material-icons center bar-item button' href='index.html'title='Home'>home</a>
+      <a class="material-icons center bar-item button" href='activities.html' title='Activities'>task_alt</a>        
+      <a class="active material-icons center bar-item button" href='schedule.html' title='Schedule'>schedule</a>
+      <a class="material-icons center bar-item button" href='finances.html' title='Finances'>request_quote</a>
+      <a class="material-icons center bar-item button" href='documents.html' title='Documents'>folder</a>
+      <a href='javascript:void(0);' class='material-icons fa right bar-item-side button' onclick='gSearch(this)' title='Search'>search</a>
+      <a href='javascript:void(0);' class='material-icons fa right bar-item-side button' onclick='gTra(this)' title='Choose Language'>language</a>
+    </div>
+  </div>
+</div>
+
+<div class='sidebar collapse' id='sidenav'>
+  <div id='leftmenuinner'>
+    <div id='leftmenuinnerinner'>
+      <a target="_top sidenav-item" href="activities.html">Activities</a>
+      <a target="_top sidenav-item" href="schedule.html">Schedule</a>
+      <a target="_top sidenav-item" href="finances.html">Finances</a>
+      <a target="_top sidenav-item" href="documents.html">Files</a>
+    </div>
+  </div>
+</div>
