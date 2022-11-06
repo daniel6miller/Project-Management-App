@@ -59,7 +59,7 @@ function open_menu() {
     if (m.style.display == "block") {
       close_menu();
     } else {
-      w3_close_all_nav();  
+      close_all_nav();  
       m.style.display = "block";
       if (document.getElementsByClassName) {
         x = document.getElementsByClassName("chapter")
@@ -79,8 +79,8 @@ function open_menu() {
     }
 }
 
-function w3_close_all_nav() {
-  w3_close_all_topnav();
+function close_all_nav() {
+  close_all_topnav();
   close_menu();
 }
 

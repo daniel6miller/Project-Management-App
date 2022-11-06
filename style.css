@@ -112,8 +112,8 @@
 #sidenav a.activesub:link,#sidenav a.activesub:visited {background-color:#ddd;color:#000;}
 #sidenav a.activesub:hover,#sidenav a.activesub:active {background-color:#ccc;color:#000;}
 
-@media (min-width:993px){.w3-modal-content{width:900px}.hide-large{display:none!important}.sidebar.collapse{display:block!important}}
-@media (max-width:992px){.sidebar.collapse{display:none}.w3-main{margin-left:0!important;margin-right:0!important}.w3-auto{max-width:100%}}
+@media (min-width:993px){.modal-content{width:900px}.hide-large{display:none!important}.sidebar.collapse{display:block!important}}
+@media (max-width:992px){.sidebar.collapse{display:none}.main{margin-left:0!important;margin-right:0!important}.auto{max-width:100%}}
 
 .profile-img {
     border-radius: 50%;
@@ -155,7 +155,7 @@
 }
 #sidesection_exercise a{display:block;padding:4px 10px;}
 #sidesection_exercise a:hover,#sidesection_exercise a:active{background-color:#ccc;text-decoration:none;color:#000000;}
-.sidesection .w3-left-align {
+.sidesection .left-align {
     text-align:center!important;
 }
 #video_sidesection {
@@ -190,7 +190,7 @@ background-color: #059862!important;
 color: #ffffff;
 }
 
-.example .w3-btn, .example .ws-btn {
+.example .btn, .example .ws-btn {
     background-color:#04AA6D!important;
     border-radius:5px;
     font-size: 17px;
